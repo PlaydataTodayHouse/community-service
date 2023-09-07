@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BE-TodayHouse.main.iml" filepath="$PROJECT_DIR$/.idea/modules/BE-TodayHouse.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.icebear2n2.community-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.icebear2n2.community-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/community-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/community-service.main.iml" />
     </modules>
   </component>
 </project>

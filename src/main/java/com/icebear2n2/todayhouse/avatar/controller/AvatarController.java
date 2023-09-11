@@ -1,11 +1,11 @@
 package com.icebear2n2.todayhouse.avatar.controller;
 
 import com.icebear2n2.todayhouse.avatar.service.AvatarService;
-import com.icebear2n2.todayhouse.domain.request.AvatarRequest;
-import com.icebear2n2.todayhouse.domain.response.AvatarByLikeResponse;
-import com.icebear2n2.todayhouse.domain.response.AvatarByPostResponse;
-import com.icebear2n2.todayhouse.domain.response.AvatarByScrapResponse;
-import com.icebear2n2.todayhouse.domain.response.AvatarResponse;
+import com.icebear2n2.todayhouse.domain.request.avatar.AvatarRequest;
+import com.icebear2n2.todayhouse.domain.response.avatar.AvatarByLikeResponse;
+import com.icebear2n2.todayhouse.domain.response.avatar.AvatarByPostResponse;
+import com.icebear2n2.todayhouse.domain.response.avatar.AvatarByScrapResponse;
+import com.icebear2n2.todayhouse.domain.response.avatar.AvatarResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

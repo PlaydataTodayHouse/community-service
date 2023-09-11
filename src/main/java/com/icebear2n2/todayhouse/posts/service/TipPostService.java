@@ -2,10 +2,10 @@ package com.icebear2n2.todayhouse.posts.service;
 
 import com.icebear2n2.todayhouse.avatar.repository.AvatarRepository;
 import com.icebear2n2.todayhouse.config.exception.TipPostNotFoundException;
-import com.icebear2n2.todayhouse.domain.entity.Avatar;
-import com.icebear2n2.todayhouse.domain.entity.TipPost;
-import com.icebear2n2.todayhouse.domain.request.TipPostRequest;
-import com.icebear2n2.todayhouse.domain.response.TipPostResponse;
+import com.icebear2n2.todayhouse.domain.entity.avatar.Avatar;
+import com.icebear2n2.todayhouse.domain.entity.posts.TipPost;
+import com.icebear2n2.todayhouse.domain.request.posts.TipPostRequest;
+import com.icebear2n2.todayhouse.domain.response.posts.TipPostResponse;
 import com.icebear2n2.todayhouse.posts.repository.TipPostRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;

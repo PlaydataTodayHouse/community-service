@@ -1,7 +1,7 @@
 package com.icebear2n2.todayhouse.follow.controller;
 
-import com.icebear2n2.todayhouse.domain.request.FollowRequest;
-import com.icebear2n2.todayhouse.domain.response.FollowResponse;
+import com.icebear2n2.todayhouse.domain.request.follow.FollowRequest;
+import com.icebear2n2.todayhouse.domain.response.follow.FollowResponse;
 import com.icebear2n2.todayhouse.follow.service.FollowService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
@@ -9,7 +9,6 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.web.bind.annotation.*;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
-import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;

@@ -1,7 +1,7 @@
 package com.icebear2n2.todayhouse.comments.controller;
 
-import com.icebear2n2.todayhouse.domain.request.MediaPostCommentRequest;
-import com.icebear2n2.todayhouse.domain.response.MediaPostCommentResponse;
+import com.icebear2n2.todayhouse.domain.request.comments.MediaPostCommentRequest;
+import com.icebear2n2.todayhouse.domain.response.comments.MediaPostCommentResponse;
 import com.icebear2n2.todayhouse.comments.service.MediaPostCommentService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;

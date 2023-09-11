@@ -1,7 +1,7 @@
 package com.icebear2n2.todayhouse.likes.controller;
 
-import com.icebear2n2.todayhouse.domain.request.HouseTourLikeRequest;
-import com.icebear2n2.todayhouse.domain.response.HouseTourLikeResponse;
+import com.icebear2n2.todayhouse.domain.request.likes.HouseTourLikeRequest;
+import com.icebear2n2.todayhouse.domain.response.likes.HouseTourLikeResponse;
 import com.icebear2n2.todayhouse.likes.service.HouseTourLikeService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;

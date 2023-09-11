@@ -1,7 +1,7 @@
 package com.icebear2n2.todayhouse.likes.controller;
 
-import com.icebear2n2.todayhouse.domain.request.MediaPostLikeRequest;
-import com.icebear2n2.todayhouse.domain.response.MediaPostLikeResponse;
+import com.icebear2n2.todayhouse.domain.request.likes.MediaPostLikeRequest;
+import com.icebear2n2.todayhouse.domain.response.likes.MediaPostLikeResponse;
 import com.icebear2n2.todayhouse.likes.service.MediaPostLikeService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;

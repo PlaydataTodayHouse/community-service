@@ -1,7 +1,7 @@
 package com.icebear2n2.todayhouse.posts.controller;
 
-import com.icebear2n2.todayhouse.domain.request.HouseTourRequest;
-import com.icebear2n2.todayhouse.domain.response.HouseTourResponse;
+import com.icebear2n2.todayhouse.domain.request.posts.HouseTourRequest;
+import com.icebear2n2.todayhouse.domain.response.posts.HouseTourResponse;
 import com.icebear2n2.todayhouse.posts.service.HouseTourService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;

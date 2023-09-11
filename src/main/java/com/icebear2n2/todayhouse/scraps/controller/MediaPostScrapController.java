@@ -1,7 +1,7 @@
 package com.icebear2n2.todayhouse.scraps.controller;
 
-import com.icebear2n2.todayhouse.domain.request.MediaPostScrapRequest;
-import com.icebear2n2.todayhouse.domain.response.MediaPostScrapResponse;
+import com.icebear2n2.todayhouse.domain.request.scraps.MediaPostScrapRequest;
+import com.icebear2n2.todayhouse.domain.response.scraps.MediaPostScrapResponse;
 import com.icebear2n2.todayhouse.scraps.service.MediaPostScrapService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;

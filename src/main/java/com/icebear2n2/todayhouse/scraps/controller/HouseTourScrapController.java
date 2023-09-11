@@ -1,10 +1,7 @@
 package com.icebear2n2.todayhouse.scraps.controller;
 
-import com.icebear2n2.todayhouse.domain.request.HouseTourLikeRequest;
-import com.icebear2n2.todayhouse.domain.request.HouseTourScrapRequest;
-import com.icebear2n2.todayhouse.domain.response.HouseTourLikeResponse;
-import com.icebear2n2.todayhouse.domain.response.HouseTourScrapResponse;
-import com.icebear2n2.todayhouse.likes.service.HouseTourLikeService;
+import com.icebear2n2.todayhouse.domain.request.scraps.HouseTourScrapRequest;
+import com.icebear2n2.todayhouse.domain.response.scraps.HouseTourScrapResponse;
 import com.icebear2n2.todayhouse.scraps.service.HouseTourScrapService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;

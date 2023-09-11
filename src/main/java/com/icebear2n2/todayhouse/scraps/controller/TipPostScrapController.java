@@ -1,7 +1,7 @@
 package com.icebear2n2.todayhouse.scraps.controller;
 
-import com.icebear2n2.todayhouse.domain.request.TipPostScrapRequest;
-import com.icebear2n2.todayhouse.domain.response.TipPostScrapResponse;
+import com.icebear2n2.todayhouse.domain.request.scraps.TipPostScrapRequest;
+import com.icebear2n2.todayhouse.domain.response.scraps.TipPostScrapResponse;
 import com.icebear2n2.todayhouse.scraps.service.TipPostScrapService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;

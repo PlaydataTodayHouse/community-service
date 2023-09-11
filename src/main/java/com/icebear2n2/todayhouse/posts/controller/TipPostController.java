@@ -1,7 +1,7 @@
 package com.icebear2n2.todayhouse.posts.controller;
 
-import com.icebear2n2.todayhouse.domain.request.TipPostRequest;
-import com.icebear2n2.todayhouse.domain.response.TipPostResponse;
+import com.icebear2n2.todayhouse.domain.request.posts.TipPostRequest;
+import com.icebear2n2.todayhouse.domain.response.posts.TipPostResponse;
 import com.icebear2n2.todayhouse.posts.service.TipPostService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;

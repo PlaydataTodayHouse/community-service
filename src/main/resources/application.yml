@@ -1,0 +1,32 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: community-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/house?serverTimezone=Asia/Seoul
+    username: root
+    password: qwer1234!
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+springdoc:
+  packages-to-scan: com.icebear2n2.todayhouse
+  default-consumes-media-type: application/json;charset=UTF-8
+  default-produces-media-type: application/json;charset=UTF-8
+  swagger-ui:
+    path: /
+    disable-swagger-default-url: true
+    display-request-duration: true
+    operations-sorter: alpha
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8761/eureka
+
+#  instance:
+#    instanceId: ${spring.application.name}:${vcap.application.instance_id:${spring.application.instance_id:${random.value}}}
+jwt:
+  secret: fewbiuebeot5324980hbhgsd0uub9gpkklnqbp4214989oub926t32be0gbdsn

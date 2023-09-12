@@ -11,6 +11,7 @@ import com.icebear2n2.todayhouse.domain.entity.posts.TipPost;
 import com.icebear2n2.todayhouse.domain.entity.scraps.HouseTourScrap;
 import com.icebear2n2.todayhouse.domain.entity.scraps.MediaPostScrap;
 import com.icebear2n2.todayhouse.domain.entity.scraps.TipPostScrap;
+import com.icebear2n2.todayhouse.domain.entity.user.User;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -18,7 +19,6 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import java.util.List;
-import java.util.UUID;
 
 @Entity
 @Table(name = "avatar")
@@ -32,16 +32,13 @@ public class Avatar {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "avatar_id")
     private Long avatarId;
-
-    @Column(name = "user_id", updatable = false, nullable = false)
-    private String userId;
-
     private String nickname;
     private String gender;
     private String picture;
     private String about;
 
-
+    @ManyToOne
+    private User user;
 
     @OneToMany(mappedBy = "avatar")
     private List<HouseTour> houseTours;

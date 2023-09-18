@@ -1,5 +1,6 @@
 package com.icebear2n2.todayhouse.avatar.service;
 
+import com.icebear2n2.todayhouse.avatar.api.UserClient;
 import com.icebear2n2.todayhouse.avatar.repository.AvatarRepository;
 import com.icebear2n2.todayhouse.exception.AvatarNotFoundException;
 import com.icebear2n2.todayhouse.exception.ExistNickNameException;
@@ -12,12 +13,9 @@ import com.icebear2n2.todayhouse.domain.response.avatar.AvatarByScrapResponse;
 import com.icebear2n2.todayhouse.domain.response.avatar.AvatarResponse;
 import com.icebear2n2.todayhouse.domain.response.user.UserResponse;
 import lombok.RequiredArgsConstructor;
-import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
 
 @Service
 @RequiredArgsConstructor
@@ -26,11 +24,6 @@ public class AvatarService {
     private final AvatarRepository avatarRepository;
     private final UserClient userClient;
 
-    @FeignClient(name = "auth-service")
-    public interface UserClient {
-        @GetMapping("/api/v1/auth/{userId}")
-        UserResponse findByUserId(@PathVariable String userId);
-    }
 
 
 //    TODO: Avatar CRUD

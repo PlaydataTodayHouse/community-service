@@ -1,7 +1,6 @@
 package com.icebear2n2.todayhouse.scraps.service;
 
 import com.icebear2n2.todayhouse.avatar.repository.AvatarRepository;
-import com.icebear2n2.todayhouse.config.exception.*;
 import com.icebear2n2.todayhouse.domain.entity.avatar.Avatar;
 import com.icebear2n2.todayhouse.domain.entity.posts.HouseTour;
 import com.icebear2n2.todayhouse.domain.entity.scraps.HouseTourScrap;

@@ -1,4 +1,4 @@
-package com.icebear2n2.todayhouse.config.exception;
+package com.icebear2n2.todayhouse.exception;
 
 public class HouseTourNotFoundException extends RuntimeException {
 //    public HouseTourNotFoundException(String message) {

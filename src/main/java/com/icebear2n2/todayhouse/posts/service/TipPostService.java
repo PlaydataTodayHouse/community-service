@@ -1,7 +1,7 @@
 package com.icebear2n2.todayhouse.posts.service;
 
 import com.icebear2n2.todayhouse.avatar.repository.AvatarRepository;
-import com.icebear2n2.todayhouse.config.exception.TipPostNotFoundException;
+import com.icebear2n2.todayhouse.exception.TipPostNotFoundException;
 import com.icebear2n2.todayhouse.domain.entity.avatar.Avatar;
 import com.icebear2n2.todayhouse.domain.entity.posts.TipPost;
 import com.icebear2n2.todayhouse.domain.request.posts.TipPostRequest;

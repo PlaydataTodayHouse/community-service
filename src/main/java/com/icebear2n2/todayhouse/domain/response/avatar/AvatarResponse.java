@@ -17,7 +17,7 @@ public class AvatarResponse extends AvatarDto {
 
     public AvatarResponse(Avatar avatar) {
         super(avatar);
-        user = new UserDto(avatar.getUser());
+        user = new UserDto(avatar.getUserId());
         followers = avatar.getFollowingList().stream().map(Follow::getFollower).map(AvatarDto::new).toList();
         followings = avatar.getFollowerList().stream().map(Follow::getFollowing).map(AvatarDto::new).toList();
 

@@ -1,8 +1,8 @@
 package com.icebear2n2.todayhouse.posts.service;
 
 import com.icebear2n2.todayhouse.avatar.repository.AvatarRepository;
-import com.icebear2n2.todayhouse.config.exception.AvatarNotFoundException;
-import com.icebear2n2.todayhouse.config.exception.HouseTourNotFoundException;
+import com.icebear2n2.todayhouse.exception.AvatarNotFoundException;
+import com.icebear2n2.todayhouse.exception.HouseTourNotFoundException;
 import com.icebear2n2.todayhouse.domain.entity.avatar.Avatar;
 import com.icebear2n2.todayhouse.domain.entity.posts.HouseTour;
 import com.icebear2n2.todayhouse.domain.request.posts.HouseTourRequest;

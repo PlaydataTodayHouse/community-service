@@ -1,10 +1,10 @@
 package com.icebear2n2.todayhouse.follow.service;
 
 import com.icebear2n2.todayhouse.avatar.repository.AvatarRepository;
-import com.icebear2n2.todayhouse.config.exception.ExistFollowException;
-import com.icebear2n2.todayhouse.config.exception.FollowNotFoundException;
-import com.icebear2n2.todayhouse.config.exception.NotAllowFollowException;
-import com.icebear2n2.todayhouse.config.exception.UserNotFoundException;
+import com.icebear2n2.todayhouse.exception.ExistFollowException;
+import com.icebear2n2.todayhouse.exception.FollowNotFoundException;
+import com.icebear2n2.todayhouse.exception.NotAllowFollowException;
+import com.icebear2n2.todayhouse.exception.UserNotFoundException;
 import com.icebear2n2.todayhouse.domain.entity.avatar.Avatar;
 import com.icebear2n2.todayhouse.domain.entity.follow.Follow;
 import com.icebear2n2.todayhouse.domain.request.follow.FollowRequest;

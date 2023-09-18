@@ -1,4 +1,4 @@
-package com.icebear2n2.todayhouse.config.swagger;
+package com.icebear2n2.todayhouse.config;
 
 import io.swagger.v3.oas.models.Components;
 import io.swagger.v3.oas.models.OpenAPI;

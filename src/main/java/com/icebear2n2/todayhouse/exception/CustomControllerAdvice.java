@@ -1,4 +1,4 @@
-package com.icebear2n2.todayhouse.config.exception;
+package com.icebear2n2.todayhouse.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ExceptionHandler;

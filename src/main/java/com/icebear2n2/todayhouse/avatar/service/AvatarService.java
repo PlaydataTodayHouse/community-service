@@ -1,9 +1,9 @@
 package com.icebear2n2.todayhouse.avatar.service;
 
 import com.icebear2n2.todayhouse.avatar.repository.AvatarRepository;
-import com.icebear2n2.todayhouse.config.exception.AvatarNotFoundException;
-import com.icebear2n2.todayhouse.config.exception.ExistNickNameException;
-import com.icebear2n2.todayhouse.config.exception.UserNotFoundException;
+import com.icebear2n2.todayhouse.exception.AvatarNotFoundException;
+import com.icebear2n2.todayhouse.exception.ExistNickNameException;
+import com.icebear2n2.todayhouse.exception.UserNotFoundException;
 import com.icebear2n2.todayhouse.domain.entity.avatar.Avatar;
 import com.icebear2n2.todayhouse.domain.request.avatar.AvatarRequest;
 import com.icebear2n2.todayhouse.domain.response.avatar.AvatarByLikeResponse;

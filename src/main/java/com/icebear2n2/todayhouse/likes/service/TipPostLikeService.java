@@ -1,10 +1,10 @@
 package com.icebear2n2.todayhouse.likes.service;
 
 import com.icebear2n2.todayhouse.avatar.repository.AvatarRepository;
-import com.icebear2n2.todayhouse.config.exception.AvatarNotFoundException;
-import com.icebear2n2.todayhouse.config.exception.ExistLikeException;
-import com.icebear2n2.todayhouse.config.exception.LikeNotFoundException;
-import com.icebear2n2.todayhouse.config.exception.TipPostNotFoundException;
+import com.icebear2n2.todayhouse.exception.AvatarNotFoundException;
+import com.icebear2n2.todayhouse.exception.ExistLikeException;
+import com.icebear2n2.todayhouse.exception.LikeNotFoundException;
+import com.icebear2n2.todayhouse.exception.TipPostNotFoundException;
 import com.icebear2n2.todayhouse.domain.entity.avatar.Avatar;
 import com.icebear2n2.todayhouse.domain.entity.posts.TipPost;
 import com.icebear2n2.todayhouse.domain.entity.likes.TipPostLike;
